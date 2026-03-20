@@ -1,0 +1,44 @@
+body {
+    background-color: #121212;
+    color: whitesmoke;
+}
+
+h2 {
+    font-family: Orbitron;
+    font-size: 36pt;
+    color: white;
+    letter-spacing: 10pt;
+    text-align: center;
+    margin: 30px auto;
+}
+
+.film-box {
+    background-color: #1e1e1e;
+    border-radius: 20px;
+    padding: 15px;
+    box-shadow: 5px 5px 5px 5px rgba(88, 88, 88, 0.1);
+    transition: all 0.2s;
+}
+
+.film-box:hover {
+    box-shadow: 5px 5px 5px 10px rgba(88, 88, 88, 0.1);
+}
+
+img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+h5 {
+    color: #9220f2;
+}
+
+.btn {
+    background-color: #9220f2;
+    border: #8220f2;
+}
+
+.btn:hover {
+    background-color: #7220f2;
+    border: #4220f2;
+}
